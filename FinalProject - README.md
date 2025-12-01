@@ -12,7 +12,7 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 This file should explain how scripts run and how they are connected and any other relevant details pertaining to this project.
 
 Project Title: 
-	Analysis of the U.S. National Oceanic and Atmospheric Administration's (NOAA) Storm Database
+  Analysis of the U.S. National Oceanic and Atmospheric Administration's (NOAA) Storm Database
 
 Dataset: 
   This analysis requires choosing most recent files and ensure all have same dates on them.
@@ -21,7 +21,7 @@ Dataset:
 		StormEvents_locations-ftp_v1.0_d2024_c20250818.csv
 
 Objective: 
-  The goal of this assignment is to explore the NOAA Storm Database and answer basic questions about severe weather events, which can be referenced in the Synopsis section   of the R Markdown document. The database must be used to answer questions for            assignment and the analysis will consist of tables, figures, or other summaries, which   are found under the Results section of the same document.
+  The goal of this assignment is to explore the NOAA Storm Database and answer basic questions about severe weather events, which can be referenced in the Synopsis section   of the R Markdown document. The database must be used to answer questions for assignment and the analysis will consist of tables, figures, or other summaries, which are found under the Results section of the same document.
 
 Files:
 1.	NOAA Weather.md includes the following:
