@@ -43,14 +43,14 @@ most_common_event_state <- event_counts_by_state %>%
   slice_max(event_count, n = 1) %>%
   select(STATE, EVENT_TYPE,event_count) %>%
   arrange(desc(event_count))
-print(most_common_event_state)
+print(most_common_event_state, n = Inf)
 
 #3  Events by month
 event_month_summary <- StormEvents_joined_data %>%
   group_by(MONTH_NAME, EVENT_TYPE) %>%
   summarise(event_count = n(), .groups = "drop") %>%
   arrange(MONTH_NAME, desc(event_count))
-event_month_summary
+print(event_month_summary, n = Inf)
 
 # 4 Most Common Events by month, and event total
 most_common_event_month <- event_month_summary %>%
@@ -58,4 +58,4 @@ most_common_event_month <- event_month_summary %>%
   slice_max(event_count, n = 1) %>%
   select(MONTH_NAME, EVENT_TYPE,event_count) %>%
   arrange(desc(event_count))
-most_common_event_month
+print(most_common_event_month, n = Inf)
